@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{0B5DF82F-7928-49CC-A995-1A625EADC21B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomMath", "CustomMath\CustomMath.csproj", "{B9D8FC0D-0FD9-4FD1-9721-575B1B5EBFF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0B5DF82F-7928-49CC-A995-1A625EADC21B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B5DF82F-7928-49CC-A995-1A625EADC21B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B5DF82F-7928-49CC-A995-1A625EADC21B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9D8FC0D-0FD9-4FD1-9721-575B1B5EBFF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9D8FC0D-0FD9-4FD1-9721-575B1B5EBFF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9D8FC0D-0FD9-4FD1-9721-575B1B5EBFF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9D8FC0D-0FD9-4FD1-9721-575B1B5EBFF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
