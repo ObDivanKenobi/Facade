@@ -42,7 +42,7 @@ namespace Facade
 
         private static int Decrypt(int m, int shift)
         {
-            return m + shift;
+            return m - shift;
         }
     }
 }
