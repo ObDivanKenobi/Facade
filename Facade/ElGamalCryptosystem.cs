@@ -29,7 +29,12 @@ namespace Facade
 
         public ICollection<(int a, int b)> Encrypt(string message, int sessionKey)
         {
-            throw new NotImplementedException();
+            List<(int a, int b)> cryptoMessage = new List<(int a, int b)>();
+
+            for (int i = 0; i < message.Length; ++i)
+                cryptoMessage.Add(Encrypt(message[i], sessionKey, OpenKey));
+
+            return cryptoMessage;
         }
 
         public string Decode(ICollection<(int a, int b)> sipher)
