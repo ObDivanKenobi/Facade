@@ -39,7 +39,12 @@ namespace Facade
 
         public string Decode(ICollection<(int a, int b)> sipher)
         {
-            throw new NotImplementedException();
+            StringBuilder builder = new StringBuilder();
+
+            for (int i = 0; i < sipher.Count; ++i)
+                builder.Append((char)Decode(_secretKey, _p, sipher.ElementAt(i)));
+
+            return builder.ToString();
         }
 
         static (int a, int b) Encrypt(int q, int k, (int y, int g, int p) openKey)
