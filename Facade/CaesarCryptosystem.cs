@@ -25,18 +25,7 @@ namespace Facade
             return cryptoMessage;
         }
 
-        public string Decode(ICollection<int> cryptoMessage)
-        {
-            StringBuilder builder = new StringBuilder();
 
-            for (int i = 0; i < cryptoMessage.Count; ++i)
-                builder.Append((char)Decrypt(cryptoMessage.ElementAt(i), _shift));
-
-            return builder.ToString();
-        }
-
-        private static int Encrypt(int m, int shift)
-        {
             return m + shift;
         }
 
