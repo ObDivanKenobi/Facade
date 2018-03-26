@@ -45,5 +45,15 @@ namespace Facade
             return m - shift;
         }
         
+        //Just to test github webhook
+        private static void DoNothing()
+        {
+            int[] array = new[] { 1, 2, 3, 4, 5, 6, 7 };
+            foreach (int i in array)
+            {
+                int a = i;
+                int b = i*i;
+            }
+        }
     }
 }
