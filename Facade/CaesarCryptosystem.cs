@@ -22,7 +22,7 @@ namespace Facade
             for (int i = 0; i < message.Length; ++i)
                 cryptoMessage.Add(Encrypt(message[i], _shift));
 
-/*            return cryptoMessage;
+            return cryptoMessage;
         }
 
         public string Decode(ICollection<int> cryptoMessage)
@@ -31,7 +31,7 @@ namespace Facade
 
             for (int i = 0; i < cryptoMessage.Count; ++i)
                 builder.Append((char)Decrypt(cryptoMessage.ElementAt(i), _shift));
-*/
+
             return builder.ToString();
         }
 
