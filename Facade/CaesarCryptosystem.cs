@@ -52,7 +52,7 @@ namespace Facade
             foreach (int i in array)
             {
                 int a = i;
-                int b = i*i;
+                int b = i*i*i;
             }
         }
     }
