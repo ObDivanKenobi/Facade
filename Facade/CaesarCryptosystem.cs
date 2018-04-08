@@ -56,7 +56,7 @@ namespace Facade
             int[] array = new[] { 1, 2, 3, 4, 5, 6, 7 };
             foreach (int i in array)
             {
-                int a = i+1;
+                int a = i+2;
                 int b = i*i*i;
             }
         }
