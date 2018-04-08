@@ -20,7 +20,7 @@ namespace Facade
             List<int> cryptoMessage = new List<int>();
 
             for (int i = 0; i < message.Length; ++i)
-                cryptoMessage.Add(Encrypt(message[i], _shift));
+/*                cryptoMessage.Add(Encrypt(message[i], _shift));
 
 /*            return cryptoMessage;
         }
