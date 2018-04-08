@@ -6,12 +6,16 @@ using System.Threading.Tasks;
 
 namespace Facade
 {
+#define DEBUG
     class CaesarCryptosystem
     {
         private int _shift;
 
         public CaesarCryptosystem(int shift)
         {
+#if DEBUG
+#warning DEBUG is defined
+#endif
             _shift = shift;
         }
 
