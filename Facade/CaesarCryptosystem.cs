@@ -1,5 +1,3 @@
-#define DEBUG
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,9 +12,6 @@ namespace Facade
 
         public CaesarCryptosystem(int shift)
         {
-#if DEBUG
-#warning DEBUG is defined
-#endif
             _shift = shift;
         }
 
