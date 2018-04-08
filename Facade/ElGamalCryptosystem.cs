@@ -8,7 +8,7 @@ using CustomMath;
 
 namespace Facade
 {
-    class ElGamalCryptosystem
+    public class ElGamalCryptosystem
     {
         private readonly int _secretKey;
         private readonly int _y;

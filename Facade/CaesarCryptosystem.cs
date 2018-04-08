@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Facade
 {
-    class CaesarCryptosystem
+    public class CaesarCryptosystem
     {
         private int _shift;
 
