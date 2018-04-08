@@ -34,14 +34,14 @@ namespace Facade
 
             return builder.ToString();
         }
-*/
+        
         private static int Encrypt(int m, int shift)
         {
             return m + shift;
         }
 
         private static int Decrypt(int m, int shift)
-        {
+        {*/
             return m - shift;
         }
         
