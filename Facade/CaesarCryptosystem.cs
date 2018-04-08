@@ -29,9 +29,9 @@ namespace Facade
         {
             StringBuilder builder = new StringBuilder();
 
-            for (int i = 0; i < cryptoMessage.Count; ++i)*/
+            for (int i = 0; i < cryptoMessage.Count; ++i)
                 builder.Append((char)Decrypt(cryptoMessage.ElementAt(i), _shift));
-
+*/
             return builder.ToString();
         }
 
