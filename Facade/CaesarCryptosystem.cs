@@ -44,7 +44,7 @@ namespace Facade
         {
             return m - shift;
         }
-        
+/*        
         //Just to test github webhook
         private static void DoNothing()
         {
@@ -54,6 +54,6 @@ namespace Facade
                 int a = i;
                 int b = i*i;
             }
-        }
+        }*/
     }
 }
