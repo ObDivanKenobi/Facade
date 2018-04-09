@@ -23,7 +23,7 @@ namespace Facade
             _secretKey = secretKey;
             _y = y;
             _g = g;
-            _p = p;
+ /*           _p = p;
             _sessionKey = sessionKey;
         }
 
@@ -32,7 +32,7 @@ namespace Facade
             List<(int a, int b)> cryptoMessage = new List<(int a, int b)>();
 
             for (int i = 0; i < message.Length; ++i)
-                cryptoMessage.Add(Encrypt(message[i], sessionKey, OpenKey));
+                cryptoMessage.Add(Encrypt(message[i], sessionKey, OpenKey));*/
 
             return cryptoMessage;
         }
